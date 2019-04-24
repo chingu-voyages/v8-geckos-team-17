@@ -1,0 +1,204 @@
+
+*,
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    text-align: center;   
+}
+
+
+.container{
+	text-align: center;
+}
+
+.jumbotron .container{
+    max-width: 70%!important;
+}
+
+.nav li a:hover,
+.nav:focus{
+    color: palevioletred !important;
+}
+
+.navbar{
+    margin-bottom: 0 !important;
+    font-size: 2rem;
+}
+
+.navbar-default{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+}
+
+.navbar-brand > img {
+    margin-top: -15px;
+    width: 50px;
+}
+
+.jumbotron{
+    padding-top: 0;
+    padding-bottom: 30px;
+    margin-bottom: 0;
+    background-image: url(img/bg3.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+    width: 100%;
+    height: 100%;
+    color: white !important;
+}
+
+.title{
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: auto;
+    padding: 10px;
+    padding-top: 0;
+    
+}
+
+.title span{
+  
+    display: block;
+    font-weight: 300;
+    
+}
+
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #eee;
+}
+
+.url{
+    padding: 1px 15px 1px 55px !important;
+    background-image: url(img/input-icon.svg)!important;
+    background-repeat: no-repeat !important;
+    background-position: center left 12px !important;
+    text-transform: uppercase;
+    font-family: inherit;
+    outline: none;
+}
+
+.btn{
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 2px solid palevioletred;
+    padding: .5rem .5rem;
+    display: inline-block;
+    color: palevioletred;
+    text-shadow: 0 1px 0 #222;
+    cursor: pointer;
+    line-height: 2;
+    border-radius: 1px;
+    background-color: #777;
+}
+
+
+.btn:hover,
+.btn:focus{
+    background-color: palevioletred;
+    color: #777;
+    outline: none;
+}
+
+.btn:active{
+    transform: translateY(1px);
+}
+.btn-download a {
+    display: block;
+    margin-bottom: 1px;
+}
+
+
+.alert-danger{
+    font-size: 2rem;
+}
+#err-alert,
+#content{
+  display: inline-block;
+}
+
+.fa-times-circle:before {
+   
+    color: red;
+    background-color: white;
+}
+
+
+#load > div {
+    margin: 28px;
+    width: 10rem;
+    height: 10rem;
+    display: inline-block;
+    padding: 0px;
+    border-radius: 100% !important;
+    border: 3px solid;
+    border-top-color: palevioletred;
+    border-bottom-color: rgba(0, 0, 0, 0.1);
+    border-left-color: palevioletred;
+    border-right-color: rgba(0, 0, 0, 0.1);
+    -webkit-animation: loader 0.6s linear infinite;
+    animation: loader 0.6s linear infinite;
+
+
+   
+}
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@-webkit-keyframes loader {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+
+
+.banner-info{
+    margin: 5rem auto 5rem auto;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 8px;
+    color: #999;
+    display: inline-block;
+    
+}
+
+.support ul li img{
+    width: 42px;
+    margin: 2rem 0 1rem 0;
+}
+
+
+.list li{
+    list-style: none;
+    margin-right: 2rem;
+    display: inline-block;
+}
+
+footer{
+    background: #222;
+    margin-top: 2rem;
+    padding: 1rem;
+    color:palevioletred;
+    font-size: 2rem;
+    text-align: center;
+}
+

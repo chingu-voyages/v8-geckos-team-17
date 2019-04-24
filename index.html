@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="style2.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html" title="Video Downloader"> <img src="img/1439431.png" alt="Downloader"/> </a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="mynavbar">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul> 
+            </div>
+        </div>
+    </div>
+
+
+    <div class="jumbotron">
+        <div class="container" id="home">
+            
+            <h1 class="title">Download any videos
+            <span>you like for free</span></h1>
+            
+
+            <div class="input-group form-group">
+                <input class="form-control input-lg url" id="link" required   name="link"    placeholder="Enter your link here..." type="text" autofocus />
+                <span class="input-group-btn">
+                <button type="submit" id="button-download" class="btn input-lg"><span>DOWNLOAD <i class="fa fa-arrow-circle-right"></i></span></button>
+                </span>
+            </div>
+
+            <div id="download">
+
+                <!----to show error if it occurs
+                <div id="content" style="display:block">
+                        <div class="alert alert-danger alert-dismissible">
+                                <i class="fas fa-times-circle close" data-dismiss="alert"></i>
+                            Please try again!!!!
+                    
+                        </div>
+                    </div> ---->
+           <!--- while downloading ------>
+                <div class="load"  id="load"><div></div></div>
+            </div>
+
+        </div>
+    </div>
+
+    <section class="banner-info" id="about">
+            <div class="support">
+                <p>Fast and easy download of videos from YouTube, Facebook, Instagram, and many other websites</p>
+                <ul class="list">
+                    <li>
+                        <img src="img/youtube.svg" alt="Youtube">
+                        <p>Youtube</p>
+                    </li>
+                    <li>
+                        <img src="img/instagram.svg" alt="Instagram">
+                        <p>Instagram</p>
+                    </li>
+                    <li>
+                        <img src="img/twitter.svg" alt="Twitter">
+                        <p>Twitter</p>
+                    </li>
+                    <li>
+                            <img src="img/google-plus.svg" alt="Instagram">
+                            <p>Google-Plus</p>
+                    </li>
+                    <li>
+                        <img src="img/vimeo.svg" alt="Vimeo">
+                        <p>Vimeo</p>
+                    </li>
+                    <li>
+                        <img src="img/facebook.svg" alt="Facebook">
+                        <p>Facebook</p>
+                    </li>
+                </ul>
+    
+            </div>
+        </section>
+    
+        <footer id="contact">
+                <p>Designed by geckos-team 17</p>
+                <p>Copyright ©2019. All rights reserved.</p>
+            </footer>
+        
+
+
+            
+    
+</body>
+</html>
